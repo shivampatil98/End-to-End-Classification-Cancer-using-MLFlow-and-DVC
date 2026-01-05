@@ -48,6 +48,25 @@ pip install mlflow
 python main.py --train
 ```
 
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=[https://dagshub.com/shivampatil98/End-to-End-Classification-Cancer-using-MLFlow-and-DVC.mlflow]
+MLFLOW_TRACKING_USERNAME=shivampatil98 \
+MLFLOW_TRACKING_PASSWORD= \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=[https://dagshub.com/shivampatil98/End-to-End-Classification-Cancer-using-MLFlow-and-DVC.mlflow]
+
+export MLFLOW_TRACKING_USERNAME=shivampatil98 
+
+export MLFLOW_TRACKING_PASSWORD=
+
+```
 5. Run the Application
 
 ```bash
