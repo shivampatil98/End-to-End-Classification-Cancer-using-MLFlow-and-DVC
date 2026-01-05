@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Projects/Chest Cancer Classification/End-to-End-Classification-Cancer-using-MLFlow-and-DVC/mlruns/0/models/m-e24d3c28fd0d4a2a9e6dea7e8e1b2650/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.19
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.12.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.8.1
+model_id: m-e24d3c28fd0d4a2a9e6dea7e8e1b2650
+model_size_bytes: 59656633
+model_uuid: m-e24d3c28fd0d4a2a9e6dea7e8e1b2650
+prompts: null
+run_id: d127b5249fd140b9af5958abe295a49b
+utc_time_created: '2026-01-05 10:31:33.889855'
