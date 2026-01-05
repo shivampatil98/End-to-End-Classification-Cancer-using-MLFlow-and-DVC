@@ -36,13 +36,19 @@ End-to-End-Classification-Cancer-using-MLFlow-and-DVC/
 pip install -r requirements.txt
 ```
 
-3. Train the Model
+3. Set up MLFlow
+
+```bash
+pip install mlflow
+```
+
+4. Train the Model
 
 ```bash
 python main.py --train
 ```
 
-4. Run the Application
+5. Run the Application
 
 ```bash
 python app.py
