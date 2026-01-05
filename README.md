@@ -53,7 +53,7 @@ python main.py --train
 
 MLFLOW_TRACKING_URI=[https://dagshub.com/shivampatil98/End-to-End-Classification-Cancer-using-MLFlow-and-DVC.mlflow]
 MLFLOW_TRACKING_USERNAME=shivampatil98 \
-MLFLOW_TRACKING_PASSWORD= \
+MLFLOW_TRACKING_PASSWORD=2f958127c828fc1267dfbe2ea45a0d187469ae56  \
 python script.py
 
 Run this to export as env variables:
@@ -64,7 +64,7 @@ export MLFLOW_TRACKING_URI=[https://dagshub.com/shivampatil98/End-to-End-Classif
 
 export MLFLOW_TRACKING_USERNAME=shivampatil98 
 
-export MLFLOW_TRACKING_PASSWORD=
+export MLFLOW_TRACKING_PASSWORD=2f958127c828fc1267dfbe2ea45a0d187469ae56  
 
 ```
 5. Run the Application
